@@ -16,7 +16,9 @@ ul li {
     list-style-type: none;
 }
 
-
+img{
+    width: 100%;
+}
 
 .logo-container{
     display: flex;
@@ -64,6 +66,7 @@ main{
 }
 
 .hero{
+    width: auto;
     height: 400px;
     align-self: center;
     opacity: 0.8;
@@ -105,10 +108,6 @@ main{
     margin: 10px 0px 10px 0px;
     border: 2px solid black;
     box-shadow: 3px 2px 2px black;
-}
-
-.img-content{
-    width: 100%;
 }
 
 
