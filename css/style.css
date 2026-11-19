@@ -134,3 +134,25 @@ footer > ul{
     justify-content: space-around;
     padding-bottom: 30px;
 }
+
+
+
+.bilder{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+}
+
+.bilder > img{
+    width: 48%;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 3px black;
+}  
+
+.bilder > p{
+    text-align: center;
+}
