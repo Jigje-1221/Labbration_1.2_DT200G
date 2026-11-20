@@ -14,9 +14,9 @@
             <a class="logo" href="index.html"><img src="Image/logo.svg" alt="Logo för sidan"></a>
             <p class="name">Pickworld</p>
         </div>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
-                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item right-now" aria-current="page"><a href="index.html">Home</a></li>
                 <li class="nav-item"><a href="bild.html">Bild</a></li>
                 <li class="nav-item"><a href="omMig.html">Om mig</a></li>
             </ul>
@@ -29,23 +29,21 @@
         </section>
         <section class="bild-container">
             <div class="container">
-                <h2>Bild</h2>
-                <p>Under denna uppgift har jag redigera några bilder som har olika problem på sig och jag använder mig av program Photopea för att redigera bilderna.</p>
-                <a href="">
-                    <div class="container">
-                        <img src="Image/bilserie001_change.jpg" alt="En kinesiska stad.">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="container">
-                        <img src="Image/bilserie002_change.jpg" alt="En stad som ligger bredvid en flod.">
-                    </div>
-                </a>
-                <a href="">
-                    <div class="container">
-                        <img src="Image/bilserie003_change.jpg" alt="En stora och fina kyrkan.">
-                    </div>
-                </a>
+                <div>
+                    <h2>Bild</h2>
+                    <p>Under denna uppgift har jag redigera några bilder som har olika problem på sig och jag använder mig av program Photopea för att redigera bilderna.</p>
+                </div>
+                <div class="img-container">
+                        <div class="img-contant">
+                            <img src="Image/bilserie001_change.jpg" alt="En kinesiska stad.">
+                        </div>
+                        <div class="img-contant">
+                            <img src="Image/bilserie002_change.jpg" alt="En stad som ligger bredvid en flod.">
+                        </div>
+                        <div class="img-contant">
+                            <img src="Image/bilserie003_change.jpg" alt="En stora och fina kyrkan.">
+                        </div>
+                </div>
             </div>
         </section>
     </main>
@@ -56,7 +54,7 @@
         </div>
         <h2>Länk</h2>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li class="right-now"><a href="index.html">Home</a></li>
             <li><a href="bild.html">Bild</a></li>
             <li><a href="omMig.html">Om mig</a></li>
         </ul>
